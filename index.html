@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Estação Meteorológica</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌦️ Minha Estação</h1>
+        <p>Previsão do tempo</p>
+    </header>
+
+    <main>
+
+        <section class="pesquisa">
+            <input
+                type="text"
+                id="cidade"
+                placeholder="Digite sua cidade"
+            >
+
+            <button id="buscar">Buscar</button>
+        </section>
+
+        <section class="clima">
+
+            <h2 id="nome-cidade">Sua cidade</h2>
+
+            <div id="icone">🌤️</div>
+
+            <h1 id="temperatura">--°C</h1>
+
+            <p id="condicao">Aguardando consulta...</p>
+
+            <div class="detalhes">
+
+                <div>
+                    <span>💧 Umidade</span>
+                    <p id="umidade">--%</p>
+                </div>
+
+                <div>
+                    <span>💨 Vento</span>
+                    <p id="vento">-- km/h</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <p id="mensagem"></p>
+
+    </main>
+
+    <footer>
+        <p>Dados meteorológicos via Open-Meteo</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #071b33, #123f68);
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #b8d8f0;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+}
+
+.pesquisa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.pesquisa input {
+    flex: 1;
+    min-width: 0;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.pesquisa button {
+    padding: 13px 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #36a9e1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pesquisa button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.clima {
+    background-color: rgba(255, 255, 255, 0.12);
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.clima h2 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+#icone {
+    font-size: 65px;
+    margin: 10px;
+}
+
+#temperatura {
+    font-size: 55px;
+    margin: 10px;
+}
+
+#condicao {
+    color: #c6e4fa;
+}
+
+.detalhes {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.detalhes div {
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 15px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+.detalhes span {
+    font-size: 14px;
+}
+
+.detalhes p {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffcf70;
+}
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+    color: #b8d8f0;
+    font-size: 12px;
+}
